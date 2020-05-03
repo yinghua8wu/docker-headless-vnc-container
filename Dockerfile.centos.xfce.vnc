@@ -25,9 +25,9 @@ ENV HOME=/headless \
     STARTUPDIR=/dockerstartup \
     INST_SCRIPTS=/headless/install \
     NO_VNC_HOME=/headless/noVNC \
-    VNC_COL_DEPTH=24 \
-    VNC_RESOLUTION=1280x1024 \
-    VNC_PW=vncpassword \
+    VNC_COL_DEPTH=16 \
+    VNC_RESOLUTION=800x600 \
+    VNC_PW=ps123 \
     VNC_VIEW_ONLY=false
 WORKDIR $HOME
 
